@@ -4,7 +4,8 @@
   "description": "app de mensajeria ",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon backend/server.js",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,14 +19,18 @@
   },
   "homepage": "https://github.com/ArmandCortz/appmensajeria#readme",
   "dependencies": {
-    "express": "^4.18.2",
-    "nodemon": "^2.0.20",
+    "@chakra-ui/react": "^2.3.7",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "dotenv": "^9.0.2",
+    "express": "^4.18.2",
     "express-async-handler": "^1.1.4",
+    "framer-motion": "^7.6.6",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.12.9",
+    "nodemon": "^2.0.20",
     "socket.io": "^4.1.2"
   }
 }
