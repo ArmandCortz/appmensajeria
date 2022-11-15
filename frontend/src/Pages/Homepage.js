@@ -20,10 +20,9 @@ function Homepage() {
     const user = JSON.parse(localStorage.getItem("userInfo"));
 
     if (user) history.push("/chats");
-    
   }, [history]);
+
   return (
-    
     <Container maxW="xl" centerContent>
       <Box
         d="flex"
@@ -36,7 +35,7 @@ function Homepage() {
         borderWidth="1px"
       >
         <Text fontSize="4xl" fontFamily="Work sans">
-          app de chat
+          APPCHATING
         </Text>
       </Box>
       <Box bg="white" w="100%" p={4} borderRadius="lg" borderWidth="1px">
